@@ -25,10 +25,5 @@ main:after {
   height: 100px;
 }
 
-@media (min-width: 800) {
-  .logoSection{
-      font-size: 16px;
-  }
 
-}
 

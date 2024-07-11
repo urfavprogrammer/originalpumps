@@ -3,9 +3,9 @@ import { NavLink } from "react-router-dom";
 
 export const Footer = () => {
   return (
-    <footer className="footer">
-        <div>
-        <p><span>Copyright © 2024 Original Pumps,Inc - All Rights Reserved.</span></p>
+    <footer>
+      <div className="footer">
+        <p><span className="copyRight">Copyright © 2024 Original Pumps,Inc - All Rights Reserved.</span></p>
 
         <nav className="footerNav">
           <NavLink to="/" className="navItem" end> Home</NavLink>
