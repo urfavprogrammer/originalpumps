@@ -13,7 +13,7 @@ export const Footer = () => {
           <NavLink to="/" className="navItem" end> Home</NavLink>
           <NavLink to="/AboutUs" className="navItem" > About Us</NavLink>
           <NavLink to="/Products" className="navItem" > Products</NavLink>
-          <NavLink to="/Contact" className="navItem" > Contact Us</NavLink>
+          <NavLink to="/ContactUs" className="navItem" > Contact Us</NavLink>
         </nav>
       </div>
     </footer>
