@@ -6,7 +6,6 @@ export const ProductCard = ({product}) => {
         <img src={img} alt={name} />
         <p className='name'>{name}</p>
 
-      
     </div>
   )
 }
