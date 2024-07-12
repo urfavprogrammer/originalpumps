@@ -1,7 +1,5 @@
 import { NavLink } from "react-router-dom"
-import { Hero, Carousel } from "../components"
-
-
+import { Hero} from "../components"
 
 
 export const Home = () => {
