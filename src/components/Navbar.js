@@ -12,9 +12,10 @@ export const Navbar = () => {
 
     return (
         <nav className="navbar">
-            <div className="navbar-logo">
+            <div className="logo">
                 <Link to="/">
-                    <h3>Original Pumps, <span style={{ color: "#FFDC4B" }}>Inc.</span> </h3>
+                <img src="../assets/images/logo.png" alt="" />
+                    {/* <h3>Original Pumps, <span style={{ color: "#FFDC4B" }}>Inc.</span> </h3> */}
 
                 </Link>
             </div>

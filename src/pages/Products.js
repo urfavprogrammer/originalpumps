@@ -1,7 +1,12 @@
 import { ProductCard } from "../components"
+// import { useState } from "react";
+import useFetch from "../hooks/useFetch";
 
 export const Products = () => {
-  const products = [
+  // const [url, setUrl] = useState(["http://localhost:8000/products"])
+  // const { data: products, error } = useFetch("http://localhost:8000/products");  
+  // console.log(products)
+  const products =  [
     {
       "id": 1,
       "img": "./assets/images/pd/Monoblock-pump.webp",
@@ -86,9 +91,11 @@ export const Products = () => {
       "id": 15,
       "img": "./assets/images/pd/submersible-slurry-pump.webp",
       "name": "Submersible Slurry Pump"
-    },
+    }
   ]
+  
   return (
+    
     <main>
 
       <section >

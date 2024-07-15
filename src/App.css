@@ -18,7 +18,11 @@
 
 }
 
-
+.logo img {
+  max-width: 150px;
+  margin-left: 42px;
+  height: auto;
+}
 .navSection{
   padding: 40px;
 }
@@ -119,6 +123,7 @@
 }
 .product img{
   height: 250px;
+  box-sizing: border-box;
   max-width: 100%;
 }
 
