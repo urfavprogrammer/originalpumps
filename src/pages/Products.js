@@ -1,6 +1,6 @@
 import { ProductCard } from "../components"
 // import { useState } from "react";
-import useFetch from "../hooks/useFetch";
+// import useFetch from "../hooks/useFetch";
 
 export const Products = () => {
   // const [url, setUrl] = useState(["http://localhost:8000/products"])
