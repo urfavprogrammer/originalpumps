@@ -64,10 +64,14 @@ export const Home = () => {
           <div className="AboutUsContent">
           <span><img src="../assets/images/bg/ip.webp" alt="Heat Exchanger" /></span>
           </div>
-          <div className="AboutUsContent">5</div>
+          <div className="AboutUsContent">
+            <span><img src="../assets/images/bg/q_27.webp" alt="Heat Exchanger" /></span>
+          </div>
           <div className="AboutUsContent"><p><span>In order to produce optimum solutions to your changing needs, we closely follow the technologies in the world on one hand, and develop new technologies in our R&D laboratories on the other. Our responsibility towards the sector, people and future generations always motivates us to do newer and better. We produce our pumps with optimize system efficiency within international standards that are accepted all over the world. </span></p></div>
           <div className="AboutUsContent"><p><span>Original Pump Inc products are used in many areas where liquids need to be pressurized, from industrial processes and petro-chemical industry, agricultural irrigation to general purpose water supply, waste water transfer and treatment plants. </span></p></div>
-          <div className="AboutUsContent">8</div>
+          <div className="AboutUsContent">
+            <span><img src="../assets/images/bg/cr.webp" alt="Heat Exchanger" /></span>
+          </div>
         </div>
       </section>
 

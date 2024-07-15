@@ -4,8 +4,8 @@ export const Products = () => {
   const products = [
     {
       "id": 1,
-      "img": "./assets/images/pd/kms.webp",
-      "name": "KMS Monoblock Centerfugal Pump"
+      "img": "./assets/images/pd/Monoblock-pump.webp",
+      "name": "Monoblock Pump"
     },
     {
       "id": 2,
@@ -19,18 +19,18 @@ export const Products = () => {
     },
     {
       "id": 4,
-      "img": "./assets/images/pd/multi.webp",
-      "name": "KMM Multistage Centerfugal Pump"
+      "img": "./assets/images/pd/AWN-dredger-pump-6.webp",
+      "name": "AWN Dredger Pump"
     },
     {
       "id": 5,
-      "img": "./assets/images/pd/kmo.webp",
-      "name": "KMO Double-Suction Pump"
+      "img": "./assets/images/pd/impeller.webp",
+      "name": "Slurry Pump Parts"
     },
     {
       "id": 6,
-      "img": "./assets/images/pd/kmp.webp",
-      "name": "KMP Selfprime Pump"
+      "img": "./assets/images/pd/heavy-duty-slurry-pump.webp",
+      "name": "Heavy Duty Pump"
     },
     {
       "id": 7,
@@ -59,8 +59,8 @@ export const Products = () => {
     },
     {
       "id": 12,
-      "img": "./assets/images/pd/kmg.webp",
-      "name": "KMG Gear Oil Pump"
+      "img": "./assets/images/pd/split-case-pump.webp",
+      "name": "Split Case Pump"
     },
     {
       "id": 13,
@@ -76,7 +76,17 @@ export const Products = () => {
       "id": 15,
       "img": "./assets/images/pd/grandsu.webp",
       "name": "Grandsu Dosing Pump"
-    }
+    },
+    {
+      "id": 15,
+      "img": "./assets/images/pd/vertical-slurry-pump.webp",
+      "name": "Vertical Centrifugal Sump Slurry Pump"
+    },
+    {
+      "id": 15,
+      "img": "./assets/images/pd/submersible-slurry-pump.webp",
+      "name": "Submersible Slurry Pump"
+    },
   ]
   return (
     <main>
