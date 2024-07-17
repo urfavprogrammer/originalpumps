@@ -5,20 +5,62 @@ export const AllRoutes = () => {
     const products = [
         {
             id: 0,
-            code: "OP/MO-9871288763za",
-            img: "../assets/images/pd/Monoblock-pump.webp",
-            name: "Monoblock Pump",
-            desccription: "QIZ series horizontal centrifugal monoblock pump is the pump for clean water and the other liquids physically and chemically similar to the clean water. ",
+            code: "OP/HSP-9876543254xa",
+            img: "../assets/images/pd/hsp.webp",
+            name: "Horizontal Slurry Pump",
+            description: "Centrifugal Slurry Pump - the solution for your heavy-duty pumping needs! This pump is designed for handling abrasive and corrosive slurry in various industries, including mining, wastewater treatment, and mineral processing. There are different types of seals including gland packing seal, expeller seal, and mechanical seal. Suitable for electric motor or diesel engine drives ",
             features: [
-                'Discharge : up to 20 inch',
-                'H(Head): up to 154 m',
-                'HP: up to 160 kw ',
-                'Capacities: up to 1450 m³/h ',
+                'Discharge : up to 14 inch',
+                'H(Head): up to 99 m',
+                'HP: up to 1200 kw ',
+                'Capacities: up to 5000 m³/h ',
 
             ]
         },
         {
             id: 1,
+            code: "OP/MFP-9874246252ma",
+            img: "../assets/images/pd/mfp.webp",
+            name: "Mixed Flow Pump",
+            description: "Model MFP pump is a horizontal single stage single suction volute mixed flow pump and suitable for transporting pure water or the  other liquid with both physical and chemical natures  similar to those  of  water,  with the temperature of the  liquid to be transported not  over 50.Cut the impeller's outer diameter or replace it with an impeller of different performance. Suitable for electric motor or diesel engine drives",
+            features: [
+                'Discharge : up to 24 inch',
+                'H(Head): up to 22 m',
+                'HP: up to 110 kw ',
+                'Capacities: up to 3400 m³/h ',
+
+            ]
+        },
+        {
+            id: 2,
+            code: "OP/HMP-9886553254ca",
+            img: "../assets/images/pd/mwp.webp",
+            name: "Horizontal Multistage Pump",
+            description: "Horizontal multistage centrifugal pumps are a type of centrifugal pumps that contain two or more impellers. The multiple impellers of a multistage centrifugal pump are all installed and rotated on the same shaft, and essentially act like separate pumps. The horizontal multistage centrifugal pump operates by one impeller feeding into the next impeller and the number of impellers required depends on the discharge pressure requirement",
+            features: [
+                'Pump size: up to 12 inch',
+                'H(Head): up to 1000 m',
+                'HP: up to 1050 kw ',
+                'Capacities: up to 720 m³/h ',
+
+            ]
+        },
+        {
+            id: 3,
+            code: "OP/SSP-9876243254va",
+            img: "../assets/images/pd/ssp.webp",
+            name: "Single Stage End Suction Pump",
+            description: "Our single stage end suction centrifugal pumps are engineered for high efficiency and reliability. Ideal for industries requiring robust and long-lasting pumping solutions, these pumps are easy to install and operate. Our End Suction Centrifugal Pump is the pump for clean water and the other liquids physically and chemically similar to the clean water.The temperature of the liquid shall not be over 80°C. The impeller could be cut to let the pump suitable for different applications in rating. Suitable for electric motor or diesel engine drives ",
+            features: [
+                'Discharge : up to 12 inch',
+                'H(Head): up to 133 m',
+                'HP: up to 130 kw ',
+                'Capacities: up to 1200 m³/h ',
+
+            ]
+        },
+        {
+            id: 4,
             code: "OP/SSP-9876243254va",
             img: "../assets/images/pd/kmsing.webp",
             name: "KM Single Stage Pump",
@@ -34,7 +76,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            id: 2,
+            id: 5,
             img: "../assets/images/pd/sew.webp",
             code: "OP/SP/9876310952sa",
             name: "KMW Sweage Pump",
@@ -50,7 +92,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            "id": 3,
+            "id": 6,
             code: "OP/ADP/9877825312aa",
             "img": "../assets/images/pd/AWN-dredger-pump-6.webp",
             "name": "AWN Dredger Pump",
@@ -65,7 +107,7 @@ export const AllRoutes = () => {
 
         },
         {
-            "id": 4,
+            "id": 7,
             code: "OP/SSP/9870981531pa",
             "img": "../assets/images/pd/impeller.webp",
             "name": "Slurry Pump Parts",
@@ -78,7 +120,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            "id": 5,
+            "id": 8,
             code: "OP/HDP/9874526152da",
             "img": "../assets/images/pd/heavy-duty-slurry-pump.webp",
             "name": "Heavy Duty Pump",
@@ -91,7 +133,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            id: 6,
+            id: 9,
             code:"OP/TOP/9872329102wa",
             img: "../assets/images/pd/thermal.webp",
             name: "KTM Thermal Oil Pump",
@@ -107,7 +149,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            id: 7,
+            id: 10,
             code: "OP/CP/9873421092ra",
             img: "../assets/images/pd/kmc.webp",
             name: "KMC Circulating Pump",
@@ -124,7 +166,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            id: 8,
+            id: 11,
             code: "OP/VP/98643320171ta",
             "img": "../assets/images/pd/9.webp",
             "name": "KMV Vacuum Pump",
@@ -139,7 +181,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            "id": 9,
+            "id": 12,
             code: "OP/VMP/9867891235pa",
             "img": "../assets/images/pd/kvm.webp",
             "name": "KVM Vertical Multistage Pump",
@@ -156,7 +198,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            "id": 10,
+            "id": 13,
             code: "OP/ITB/9870023123oa",
             "img": "../assets/images/pd/kbs.webp",
             "name": "KBS Industrial Typle Booster",
@@ -174,7 +216,7 @@ export const AllRoutes = () => {
 
         },
         {
-            "id": 11,
+            "id": 14,
             code: "OP/SCP/9875219261fa",
             "img": "../assets/images/pd/split-case-pump.webp",
             "name": "Split Case Pump",
@@ -188,7 +230,7 @@ export const AllRoutes = () => {
 
         },
         {
-            "id": 12,
+            "id": 15,
             code: "OP/SSSP/9875421022ya",
             "img": "../assets/images/pd/kmr.webp",
             "name": "KMR Stainless Steel Submersible Pump",
@@ -205,7 +247,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            "id": 13,
+            "id": 16,
             code: "OP/DP/9867210207ia",
             "img": "../assets/images/pd/dpp.webp",
             "name": "DPP Domestic Pump",
@@ -222,7 +264,7 @@ export const AllRoutes = () => {
             ]
         },
         {
-            "id": 14,
+            "id": 17,
             code: "OP/GDP/9875210873ua",
             "img": "../assets/images/pd/grandsu.webp",
             "name": "Grandsu Dosing Pump",
