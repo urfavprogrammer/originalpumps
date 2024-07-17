@@ -1,10 +1,10 @@
 import { DescriptionCard } from "../components"
 
 
-export const ProductDescription = () => {
+export const ProductDescription = ({products}) => {
   return (
     <div>
-      <DescriptionCard />
+      <DescriptionCard products={products} />
     </div>
   )
 }

@@ -1,98 +1,13 @@
+
 import { ProductCard } from "../components"
 // import { useState } from "react";
 // import useFetch from "../hooks/useFetch";
 
-export const Products = () => {
+export const Products = ({products}) => {
   // const [url, setUrl] = useState(["http://localhost:8000/products"])
   // const { data: products, error } = useFetch("http://localhost:8000/products");  
   // console.log(products)
-  const products =  [
-    {
-      "id": 1,
-      "img": "./assets/images/pd/Monoblock-pump.webp",
-      "name": "Monoblock Pump"
-    },
-    {
-      "id": 2,
-      "img": "./assets/images/pd/kmsing.webp",
-      "name": "KM Single Stage Pump"
-    },
-    {
-      "id": 3,
-      "img": "./assets/images/pd/sew.webp",
-      "name": "KMW Sweage Pump"
-    },
-    {
-      "id": 4,
-      "img": "./assets/images/pd/AWN-dredger-pump-6.webp",
-      "name": "AWN Dredger Pump"
-    },
-    {
-      "id": 5,
-      "img": "./assets/images/pd/impeller.webp",
-      "name": "Slurry Pump Parts"
-    },
-    {
-      "id": 6,
-      "img": "./assets/images/pd/heavy-duty-slurry-pump.webp",
-      "name": "Heavy Duty Pump"
-    },
-    {
-      "id": 7,
-      "img": "./assets/images/pd/thermal.webp",
-      "name": "KTM Thermal Oil Pump"
-    },
-    {
-      "id": 8,
-      "img": "./assets/images/pd/kmc.webp",
-      "name": "KMC Circulating Pump"
-    },
-    {
-      "id": 9,
-      "img": "./assets/images/pd/9.webp",
-      "name": "KMV Vacuum Pump"
-    },
-    {
-      "id": 10,
-      "img": "./assets/images/pd/kvm.webp",
-      "name": "KVM Vertical Multistage Pump"
-    },
-    {
-      "id": 11,
-      "img": "./assets/images/pd/kbs.webp",
-      "name": "KBS Industrial Typle Booster"
-    },
-    {
-      "id": 12,
-      "img": "./assets/images/pd/split-case-pump.webp",
-      "name": "Split Case Pump"
-    },
-    {
-      "id": 13,
-      "img": "./assets/images/pd/kmr.webp",
-      "name": "KMR Stainless Steel Submersible Pump"
-    },
-    {
-      "id": 14,
-      "img": "./assets/images/pd/dpp.webp",
-      "name": "DPP Domestic Pump"
-    },
-    {
-      "id": 15,
-      "img": "./assets/images/pd/grandsu.webp",
-      "name": "Grandsu Dosing Pump"
-    },
-    {
-      "id": 15,
-      "img": "./assets/images/pd/vertical-slurry-pump.webp",
-      "name": "Vertical Centrifugal Sump Slurry Pump"
-    },
-    {
-      "id": 15,
-      "img": "./assets/images/pd/submersible-slurry-pump.webp",
-      "name": "Submersible Slurry Pump"
-    }
-  ]
+  
   
   return (
     
@@ -106,7 +21,10 @@ export const Products = () => {
         <div className="products">
           {products.map((product) => {
             return (
-              <ProductCard product={product} key={product.id} />
+              
+                <ProductCard product={product} key={product.id} />
+             
+             
             )
           })}
         </div>
